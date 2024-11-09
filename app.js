@@ -1,39 +1,6 @@
-// let h3 = document.querySelector(".user");
-// let input = document.querySelector("input");
-// let btn = document.querySelector("button");
-
-// btn.addEventListener("click", () => {
-//   let name = input.value;
-//   h3.textContent = `Hello, ${name}!`;
-
-//   input.value ="";
-
-//    max();
-// });
-
-// let maxRange = 0;
-
-// function max() {
-
-//     input.placeholder = "Enter your max Range number.....";
-//     input.type = "number";
-
-//     btn.addEventListener("click", ()=>{
-//         let maxRange = input.value;
-//         console.log(maxRange);
-//         let random = Math.floor(Math.random() * maxRange) + 1;
-
-//         input.placeholder = "Guess the number!";
-//         btn.innerText="Guess";
-
-//         h3.textContent = `Your random number is ${random}`
-//         });
-
-//     }
-
 let h3 = document.querySelector(".user");
 let input = document.querySelector("input");
-let btn = document.querySelector("button");
+let btn = document.querySelector("#btn");
 
 let userName;
 let maxRange;
@@ -66,7 +33,9 @@ btn.addEventListener("click", () => {
       h3.innerHTML = ` Congratulations, ${userName}!<br>You guessed the number!`;
 
       document.querySelector("#score").innerText = `Score : ${randomNumber}`;
-      document.querySelector("#msge").innerText = `Thank you for playing ${userName}!`;
+      document.querySelector(
+        "#msge"
+      ).innerText = `Thank you for playing ${userName}!`;
 
       btn.disabled = true;
     } else if (userGuess < randomNumber) {
