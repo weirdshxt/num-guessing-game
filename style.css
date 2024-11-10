@@ -8,7 +8,6 @@
     src: url(material/silkserif-regularitalic-webfont.ttf);
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -322,7 +321,7 @@ span:hover{
 }
 
 
-@media (max-width:600px) {
+@media (max-width:700px) {
     header{
     display: flex;
     justify-content: space-between;
@@ -575,14 +574,14 @@ ol li{
 /* profile page */
 #text{
     position: relative;
-    width: 100%;
-    margin-left: 7vw;
+    width: 90%;
+    margin-left: 5vw;
     margin-top: 21%;
 }
 #text h1 {
     color: #E6E8E6;
     font-size: 20vw;
-    font-family: 'sans serif';
+    font-family: 'silk serif';
     font-weight: 500;
     line-height: 10.5vw;
     font-style: italic;
@@ -599,7 +598,7 @@ ol li{
     position: absolute;
     width: 25%;
     height:33vw ;
-    top: 20%;
+    top: 22%;
     left: 37.5%;
     rotate: 15deg;
 }
@@ -614,7 +613,7 @@ ol li{
 .sign{
     position: absolute;
     width: 40%;
-    top: 29%;
+    top: 32%;
     left: 33.5%;
     rotate: -15deg;
 }
@@ -622,7 +621,7 @@ ol li{
 .sign h1 {
     color: #E6E8E6;
     font-family: 'Allison script';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 7.5vw;
 }
 
