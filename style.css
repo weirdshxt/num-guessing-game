@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Allison script";
+    src: url(material/allison-script.regular.otf);
+}
+
+@font-face {
+    font-family: 'silk serif';
+    src: url(material/silkserif-regularitalic-webfont.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -266,7 +277,7 @@ span:hover{
 #text h1 {
     color: #E6E8E6;
     font-size: 13vw;
-    font-family: 'sans serif';
+    font-family: 'silk serif';
     font-weight: 500;
     line-height: 10.5vw;
     font-style: italic;
