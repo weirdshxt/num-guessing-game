@@ -1,5 +1,5 @@
-# Guessing Game
-
+# Guessing Game 
+  ## [PLAY-GAME]( https://weirdshxt.github.io/num-guessing-game/)
 ## Overview
 Guessing Game is an interactive web-based number guessing game where players try to guess a randomly generated number within a specified range. The game provides an engaging and fun experience for users to test their guessing skills.
 
@@ -42,11 +42,6 @@ Guessing Game is an interactive web-based number guessing game where players try
 **Contact Information:**
 - GitHub: [Kabir Khan](https://github.com/weirdshxt)
 - LinkedIn: [Kabir Khan](https://www.linkedin.com/in/weirdsht/)
-
-## Setup and Installation
-1. Clone the repository
-2. Open `index.html` in your web browser
-3. Start playing the Guessing Game!
 
 ### Accessibility
 - **Fully Responsive:** Play the game on any device
